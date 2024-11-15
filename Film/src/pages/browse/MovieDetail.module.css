@@ -1,0 +1,32 @@
+.movieDetail {
+  width: 100%;
+  background-color: #000; 
+  color: #fff; 
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  display: flex;
+  flex: 1;
+}
+.description {
+  width: 50%;
+}
+.movieDetail h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.movieDetail p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.movieDetail img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.movieDetail iframe {
+  width: 50%;
+}

@@ -1,0 +1,9 @@
+.search {
+  background-color: rgba(0, 0, 0, 0.921);
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+.content {
+  padding: 2rem;
+}

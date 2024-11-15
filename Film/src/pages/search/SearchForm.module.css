@@ -1,0 +1,68 @@
+.formSearch {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 37rem;
+  margin: 0 auto; /* Để căn giữa form */
+}
+
+.searchInput {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.formSearch input {
+  width: calc(100% - 2rem - 1.5rem);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.formSearch svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #ccc;
+}
+
+.formSearch hr {
+  width: 100%;
+  border: none;
+  border-top: 2px solid blue;
+  margin: 1rem 0;
+}
+
+.formSearch button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.formSearch button[type="reset"] {
+  background-color: #dc3545;
+}
+
+.formSearch button:hover {
+  opacity: 0.8;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

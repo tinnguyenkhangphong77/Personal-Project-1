@@ -1,0 +1,25 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.02);
+  position: fixed;
+  width: 100%; /* Chiếm toàn bộ chiều rộng */
+  top: 0; /* Đặt ở đầu trang */
+  left: 0;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.115);
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  z-index: 10; /* Nằm đè lên tất cả*/
+}
+.navlink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  svg {
+    vertical-align: middle;
+  }
+}
+a:first-child {
+  color: red; /* Áp dụng màu đỏ cho thẻ Link đầu tiên */
+  font-weight: bold;
+}
