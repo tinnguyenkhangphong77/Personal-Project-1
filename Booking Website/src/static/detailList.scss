@@ -1,0 +1,87 @@
+@import "../App.scss";
+
+.detail-list {
+  color: #000;
+  margin-top: -30px;
+  letter-spacing: -0.3px;
+  font-weight: 500;
+
+  .info {
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  h3 {
+    justify-content: space-between;
+    font-size: 20px;
+    button {
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: $secondary-color;
+      color: $text-color;
+      border: none;
+      border-radius: 5px;
+      font-weight: 700;
+    }
+  }
+
+  .address {
+    gap: 6px;
+    font-size: 12px;
+    align-items: center;
+    margin-top: -8px;
+  }
+
+  .distance {
+    color: $primary-color;
+  }
+
+  .price {
+    color: green;
+  }
+
+  .img-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .nine-night {
+    margin-top: 30px;
+    justify-content: space-between;
+
+    .nn-it1 {
+      flex-basis: 71%;
+    }
+
+    .nn-it2 {
+      flex-basis: 27%;
+      background-color: rgb(225, 243, 255);
+      padding: 18px;
+      gap: 15px;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 13px;
+    }
+
+    button {
+      cursor: pointer;
+      width: 100%;
+      padding: 10px 0px;
+      background-color: $secondary-color;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: 700;
+    }
+  }
+}

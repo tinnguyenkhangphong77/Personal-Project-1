@@ -1,0 +1,13 @@
+.Type-card {
+  color: black;
+  justify-content: space-between;
+
+  .type-img {
+    img {
+      width: 170px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6% 6% 0 0;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../App.scss";
+
+.hotel-list {
+  color: black;
+  margin-bottom: 30px;
+
+  .link-detail {
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(84, 0, 163);
+    text-decoration: underline 1.3px;
+    cursor: pointer;
+  }
+
+  .hotel-card {
+    flex-basis: 220px;
+    gap: 8px;
+
+    .hotel-price {
+      font-weight: 600;
+    }
+
+    .hotel-rate {
+      background-color: $primary-color;
+      color: $text-color;
+      font-size: 13px;
+      padding: 3px;
+      margin-right: 9px;
+      text-align: center;
+      font-weight: 700;
+    }
+  }
+
+  .hotel-list-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+  }
+}

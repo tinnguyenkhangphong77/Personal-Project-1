@@ -1,0 +1,55 @@
+@import "../App.scss";
+
+.SearchPopup {
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+  background-color: rgb(255, 188, 45);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  grid-row: span 2;
+  height: 100%;
+
+  input {
+    outline: none;
+  }
+
+  .SearchPopup-input {
+    height: 30.4px;
+    border: none;
+    margin-bottom: 5px;
+  }
+
+  .SearchPopup-title {
+    margin: 0px 0px 5px;
+  }
+
+  .sf {
+    padding: 8px;
+    font-weight: 500;
+    font-size: 13px;
+
+    input {
+      width: 25%;
+      height: 1.6rem;
+    }
+
+    .sf-item {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  .SearchPopup-btn {
+    cursor: pointer;
+    border: none;
+    background-color: $secondary-color;
+    color: $text-color;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 8px;
+  }
+}

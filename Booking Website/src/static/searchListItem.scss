@@ -1,0 +1,78 @@
+@import "../App.scss";
+
+.searchList-card {
+  column-gap: 20px;
+  padding: 10px;
+  border: solid 1px #bebebe;
+  border-radius: 5px;
+  grid-column: 2/-1;
+  font-size: 12px;
+  grid-template-columns: 1.4fr 2fr 1fr;
+
+  h2 {
+    margin: 0;
+    color: $primary-color;
+    font-weight: 700;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .searchList-info {
+    gap: 10px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    .free-cancel {
+      color: rgb(63, 172, 63);
+      letter-spacing: -0.5px;
+      font-size: 12.5px;
+    }
+  }
+
+  .tag {
+    background-color: rgb(0, 181, 0);
+    color: $text-color;
+    border-radius: 5px;
+    padding: 5px 3px;
+    width: fit-content;
+  }
+
+  .rate,
+  .price-card {
+    justify-content: space-between;
+  }
+
+  .rate {
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+
+    span {
+      padding: 5px;
+      background-color: $primary-color;
+      color: $text-color;
+      font-size: 13px;
+    }
+  }
+
+  .price-card {
+    .price {
+      align-items: flex-end;
+      gap: 5px;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 10px;
+      border: none;
+      background-color: $secondary-color;
+      color: $text-color;
+      border-radius: 5px;
+      width: 100%;
+      font-weight: 700;
+    }
+  }
+}

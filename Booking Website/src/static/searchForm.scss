@@ -1,0 +1,47 @@
+@import "../App.scss";
+
+.header-form {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: -39px;
+  padding: 0px 35px;
+  border: solid 5px $accent-color;
+  border-radius: 7px;
+  background-color: $text-color;
+  color: #878787;
+
+  i {
+    margin-right: 10px;
+  }
+
+  .form-input {
+    // width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+  }
+
+  .date {
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .date-picker {
+    display: inline;
+    font-size: 14px;
+    height: fit-content;
+  }
+
+  .form-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: $secondary-color;
+    color: $text-color;
+    // height: 45px;
+    cursor: pointer;
+    padding: 10px 15px;
+  }
+}

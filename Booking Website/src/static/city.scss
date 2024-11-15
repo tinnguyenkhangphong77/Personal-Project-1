@@ -1,0 +1,23 @@
+.city-card {
+  margin-top: 3px;
+  .city-item {
+    position: relative;
+
+    .city-title {
+      position: absolute;
+      top: 61%;
+      left: 5%;
+      font-weight: 700;
+      font-size: 25px;
+    }
+
+    .city-img {
+      img {
+        width: 295px;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 5%;
+      }
+    }
+  }
+}

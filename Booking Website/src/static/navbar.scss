@@ -1,0 +1,27 @@
+.NavBar-container {
+  margin-bottom: 50px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .navbar-header {
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+
+  .navbar-btn {
+    gap: 10px;
+    button {
+      padding: 5px 10px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+
+  .list-icon {
+    gap: 12px;
+  }
+}
